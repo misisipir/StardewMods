@@ -1,4 +1,5 @@
-﻿using HarmonyLib;
+﻿using GenericModConfigMenu;
+using HarmonyLib;
 using ItemExtensions.Additions;
 using ItemExtensions.Events;
 using ItemExtensions.Models;

@@ -87,7 +87,9 @@ public partial class ShopMenuPatches
 
                 __instance.currentItemIndex =
                     Math.Max(0, Math.Min(__instance.forSale.Count - 4, __instance.currentItemIndex));
+                /*
                 __instance.updateSaleButtonNeighbors();
+                */
                 Reflection.GetMethod(__instance, "setScrollBarToCurrentIndex").Invoke();
                 return false;
             }
